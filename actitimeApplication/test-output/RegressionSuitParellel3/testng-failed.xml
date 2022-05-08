@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [RegressionSuitParellel3]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="RegressionSuitParellel3Test(failed)">
+    <classes>
+      <class name="grouping.PayTM">
+        <methods>
+          <include name="method"/>
+        </methods>
+      </class> <!-- grouping.PayTM -->
+      <class name="grouping.GroupB">
+        <methods>
+          <include name="b4"/>
+          <include name="b5"/>
+        </methods>
+      </class> <!-- grouping.GroupB -->
+      <class name="grouping.GroupA">
+        <methods>
+          <include name="a5"/>
+          <include name="a4"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- grouping.GroupA -->
+      <class name="testNG1.Task1">
+        <methods>
+          <include name="chromeTesting"/>
+        </methods>
+      </class> <!-- testNG1.Task1 -->
+      <class name="testNG1.ActitimeTestScenario4">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="test1"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- testNG1.ActitimeTestScenario4 -->
+    </classes>
+  </test> <!-- RegressionSuitParellel3Test(failed) -->
+</suite> <!-- Failed suite [RegressionSuitParellel3] -->

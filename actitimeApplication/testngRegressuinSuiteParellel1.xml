@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="testngRegressuinSuiteParellel1Methods">
+  <test thread-count="5" parallel="methods" name="RegressuinSuite">
+    <classes>
+      <class name="testNG1.ActitimeTestScenario"/>
+      <class name="testNG1.ActitimeTestScenario4"/>
+      <class name="testNG1.ActitimeTestScenario2chrome"/>
+      <class name="testNG1.ActitimeTestScenario3Firefox"/>
+      <class name="testNG1.Task1"/>
+    </classes>
+  </test> <!-- RegressuinSuite -->
+</suite> <!-- testngRegressuinSuiteParellel1Methods -->

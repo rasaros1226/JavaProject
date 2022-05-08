@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="17" total="37" passed="16" failed="2" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-04T10:53:48 IST" name="SuiteMeta" finished-at="2022-03-04T10:53:48 IST" duration-ms="426">
+    <groups>
+      <group name="Functional">
+        <method signature="GroupB.b7()[pri:0, instance:grouping.GroupB@399f45b1]" name="b7" class="grouping.GroupB"/>
+        <method signature="GroupB.b2()[pri:2, instance:grouping.GroupB@399f45b1]" name="b2" class="grouping.GroupB"/>
+        <method signature="GroupB.b3()[pri:3, instance:grouping.GroupB@399f45b1]" name="b3" class="grouping.GroupB"/>
+      </group> <!-- Functional -->
+      <group name="firefox.Regression">
+        <method signature="GroupD.d4()[pri:4, instance:grouping.GroupD@38c6f217]" name="d4" class="grouping.GroupD"/>
+      </group> <!-- firefox.Regression -->
+      <group name="chrome.Regression">
+        <method signature="GroupD.d3()[pri:3, instance:grouping.GroupD@38c6f217]" name="d3" class="grouping.GroupD"/>
+      </group> <!-- chrome.Regression -->
+      <group name="Sanity">
+        <method signature="GroupB.b1()[pri:1, instance:grouping.GroupB@399f45b1]" name="b1" class="grouping.GroupB"/>
+        <method signature="GroupB.b5()[pri:5, instance:grouping.GroupB@399f45b1]" name="b5" class="grouping.GroupB"/>
+      </group> <!-- Sanity -->
+      <group name="Metaverse">
+        <method signature="GroupB.b1()[pri:1, instance:grouping.GroupB@399f45b1]" name="b1" class="grouping.GroupB"/>
+        <method signature="GroupB.b4()[pri:4, instance:grouping.GroupB@399f45b1]" name="b4" class="grouping.GroupB"/>
+        <method signature="GroupB.b5()[pri:5, instance:grouping.GroupB@399f45b1]" name="b5" class="grouping.GroupB"/>
+        <method signature="GroupB.b7()[pri:0, instance:grouping.GroupB@399f45b1]" name="b7" class="grouping.GroupB"/>
+        <method signature="GroupD.d1()[pri:1, instance:grouping.GroupD@38c6f217]" name="d1" class="grouping.GroupD"/>
+        <method signature="GroupD.d2()[pri:2, instance:grouping.GroupD@38c6f217]" name="d2" class="grouping.GroupD"/>
+        <method signature="GroupD.d3()[pri:3, instance:grouping.GroupD@38c6f217]" name="d3" class="grouping.GroupD"/>
+        <method signature="GroupD.d4()[pri:4, instance:grouping.GroupD@38c6f217]" name="d4" class="grouping.GroupD"/>
+        <method signature="GroupD.d5()[pri:5, instance:grouping.GroupD@38c6f217]" name="d5" class="grouping.GroupD"/>
+        <method signature="GroupD.d7()[pri:0, instance:grouping.GroupD@38c6f217]" name="d7" class="grouping.GroupD"/>
+        <method signature="GroupB.b2()[pri:2, instance:grouping.GroupB@399f45b1]" name="b2" class="grouping.GroupB"/>
+        <method signature="GroupB.b3()[pri:3, instance:grouping.GroupB@399f45b1]" name="b3" class="grouping.GroupB"/>
+      </group> <!-- Metaverse -->
+      <group name="firefox..Sanity">
+        <method signature="GroupD.d5()[pri:5, instance:grouping.GroupD@38c6f217]" name="d5" class="grouping.GroupD"/>
+      </group> <!-- firefox..Sanity -->
+      <group name="Regression">
+        <method signature="GroupB.b4()[pri:4, instance:grouping.GroupB@399f45b1]" name="b4" class="grouping.GroupB"/>
+        <method signature="GroupB.b3()[pri:3, instance:grouping.GroupB@399f45b1]" name="b3" class="grouping.GroupB"/>
+      </group> <!-- Regression -->
+      <group name="chrome.Functional">
+        <method signature="GroupD.d7()[pri:0, instance:grouping.GroupD@38c6f217]" name="d7" class="grouping.GroupD"/>
+      </group> <!-- chrome.Functional -->
+      <group name="chrome.Sanity">
+        <method signature="GroupD.d1()[pri:1, instance:grouping.GroupD@38c6f217]" name="d1" class="grouping.GroupD"/>
+      </group> <!-- chrome.Sanity -->
+      <group name="opera.Functional">
+        <method signature="GroupD.d3()[pri:3, instance:grouping.GroupD@38c6f217]" name="d3" class="grouping.GroupD"/>
+      </group> <!-- opera.Functional -->
+      <group name="IE.Functional">
+        <method signature="GroupD.d2()[pri:2, instance:grouping.GroupD@38c6f217]" name="d2" class="grouping.GroupD"/>
+      </group> <!-- IE.Functional -->
+    </groups>
+    <test started-at="2022-03-04T10:53:48 IST" name="TestGroupMeta" finished-at="2022-03-04T10:53:48 IST" duration-ms="426">
+      <class name="grouping.GroupB">
+        <test-method signature="b7()[pri:0, instance:grouping.GroupB@399f45b1]" started-at="2022-03-04T10:53:48 IST" name="b7" finished-at="2022-03-04T10:53:48 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b7 -->
+        <test-method signature="b1()[pri:1, instance:grouping.GroupB@399f45b1]" started-at="2022-03-04T10:53:48 IST" name="b1" finished-at="2022-03-04T10:53:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b1 -->
+        <test-method signature="b2()[pri:2, instance:grouping.GroupB@399f45b1]" started-at="2022-03-04T10:53:48 IST" name="b2" finished-at="2022-03-04T10:53:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2 -->
+        <test-method signature="b2()[pri:2, instance:grouping.GroupB@399f45b1]" started-at="2022-03-04T10:53:48 IST" name="b2" finished-at="2022-03-04T10:53:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2 -->
+        <test-method signature="b2()[pri:2, instance:grouping.GroupB@399f45b1]" started-at="2022-03-04T10:53:48 IST" name="b2" finished-at="2022-03-04T10:53:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2 -->
+        <test-method signature="b2()[pri:2, instance:grouping.GroupB@399f45b1]" started-at="2022-03-04T10:53:48 IST" name="b2" finished-at="2022-03-04T10:53:48 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2 -->
+        <test-method signature="b2()[pri:2, instance:grouping.GroupB@399f45b1]" started-at="2022-03-04T10:53:48 IST" name="b2" finished-at="2022-03-04T10:53:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b2 -->
+        <test-method signature="b3()[pri:3, instance:grouping.GroupB@399f45b1]" started-at="2022-03-04T10:53:48 IST" name="b3" finished-at="2022-03-04T10:53:48 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b3 -->
+        <test-method signature="b4()[pri:4, instance:grouping.GroupB@399f45b1]" started-at="2022-03-04T10:53:48 IST" name="b4" finished-at="2022-03-04T10:53:48 IST" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at grouping.GroupB.b4(GroupB.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b4 -->
+        <test-method signature="b5()[pri:5, instance:grouping.GroupB@399f45b1]" started-at="2022-03-04T10:53:48 IST" name="b5" finished-at="2022-03-04T10:53:48 IST" depends-on-methods="grouping.GroupB.b4" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method GroupB.b5()[pri:5, instance:grouping.GroupB@399f45b1] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method GroupB.b5()[pri:5, instance:grouping.GroupB@399f45b1] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b5 -->
+      </class> <!-- grouping.GroupB -->
+      <class name="grouping.GroupD">
+        <test-method signature="d7()[pri:0, instance:grouping.GroupD@38c6f217]" started-at="2022-03-04T10:53:48 IST" name="d7" finished-at="2022-03-04T10:53:48 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d7 -->
+        <test-method signature="d1()[pri:1, instance:grouping.GroupD@38c6f217]" started-at="2022-03-04T10:53:48 IST" name="d1" finished-at="2022-03-04T10:53:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d1 -->
+        <test-method signature="d2()[pri:2, instance:grouping.GroupD@38c6f217]" started-at="2022-03-04T10:53:48 IST" name="d2" finished-at="2022-03-04T10:53:48 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d2 -->
+        <test-method signature="d2()[pri:2, instance:grouping.GroupD@38c6f217]" started-at="2022-03-04T10:53:48 IST" name="d2" finished-at="2022-03-04T10:53:48 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d2 -->
+        <test-method signature="d2()[pri:2, instance:grouping.GroupD@38c6f217]" started-at="2022-03-04T10:53:48 IST" name="d2" finished-at="2022-03-04T10:53:48 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d2 -->
+        <test-method signature="d2()[pri:2, instance:grouping.GroupD@38c6f217]" started-at="2022-03-04T10:53:48 IST" name="d2" finished-at="2022-03-04T10:53:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d2 -->
+        <test-method signature="d2()[pri:2, instance:grouping.GroupD@38c6f217]" started-at="2022-03-04T10:53:48 IST" name="d2" finished-at="2022-03-04T10:53:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d2 -->
+        <test-method signature="d3()[pri:3, instance:grouping.GroupD@38c6f217]" started-at="2022-03-04T10:53:48 IST" name="d3" finished-at="2022-03-04T10:53:48 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d3 -->
+        <test-method signature="d4()[pri:4, instance:grouping.GroupD@38c6f217]" started-at="2022-03-04T10:53:48 IST" name="d4" finished-at="2022-03-04T10:53:48 IST" duration-ms="3" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at grouping.GroupD.d4(GroupD.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d4 -->
+        <test-method signature="d5()[pri:5, instance:grouping.GroupD@38c6f217]" started-at="2022-03-04T10:53:48 IST" name="d5" finished-at="2022-03-04T10:53:48 IST" depends-on-methods="grouping.GroupD.d4" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method GroupD.d5()[pri:5, instance:grouping.GroupD@38c6f217] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method GroupD.d5()[pri:5, instance:grouping.GroupD@38c6f217] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d5 -->
+      </class> <!-- grouping.GroupD -->
+    </test> <!-- TestGroupMeta -->
+  </suite> <!-- SuiteMeta -->
+</testng-results>

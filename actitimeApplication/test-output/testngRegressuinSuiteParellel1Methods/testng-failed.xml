@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [testngRegressuinSuiteParellel1Methods]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="RegressuinSuite(failed)">
+    <classes>
+      <class name="testNG1.Task1">
+        <methods>
+          <include name="chromeTesting"/>
+        </methods>
+      </class> <!-- testNG1.Task1 -->
+      <class name="testNG1.ActitimeTestScenario4">
+        <methods>
+          <include name="beforeclass"/>
+          <include name="test1"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforemethod"/>
+        </methods>
+      </class> <!-- testNG1.ActitimeTestScenario4 -->
+      <class name="testNG1.ActitimeTestScenario2chrome">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="secondOption"/>
+          <include name="beforeMethod"/>
+          <include name="firstOption"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- testNG1.ActitimeTestScenario2chrome -->
+      <class name="testNG1.ActitimeTestScenario3Firefox">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="firstOption"/>
+          <include name="secondOption"/>
+          <include name="afterClass"/>
+          <include name="thirdOption"/>
+          <include name="afterMethod"/>
+          <include name="checkbox"/>
+        </methods>
+      </class> <!-- testNG1.ActitimeTestScenario3Firefox -->
+    </classes>
+  </test> <!-- RegressuinSuite(failed) -->
+</suite> <!-- Failed suite [testngRegressuinSuiteParellel1Methods] -->

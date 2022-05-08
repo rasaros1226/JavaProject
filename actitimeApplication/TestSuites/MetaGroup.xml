@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteMeta">
+  <test thread-count="5" name="TestGroupMeta">
+  
+ <groups>
+ 
+ <run>
+      <include name = "Metaverse"></include>
+ 
+ </run>
+ 
+ </groups> 
+  
+    <classes>
+      <class name="grouping.PayTM"/>
+      <class name="grouping.GroupA"/>
+      <class name="grouping.GroupC"/>
+      <class name="grouping.GroupB"/>
+      <class name="grouping.GroupD"/>
+    </classes>
+  </test> <!-- TestGroupMeta -->
+</suite> <!-- SuiteMeta -->

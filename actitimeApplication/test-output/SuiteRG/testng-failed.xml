@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteRG]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestRG(failed)">
+    <groups>
+      <run>
+        <include name="firefox.*"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="grouping.GroupD">
+        <methods>
+          <include name="d4"/>
+          <include name="d5"/>
+        </methods>
+      </class> <!-- grouping.GroupD -->
+    </classes>
+  </test> <!-- TestRG(failed) -->
+</suite> <!-- Failed suite [SuiteRG] -->

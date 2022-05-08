@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SuiteMeta" class="navigator-link">
+              <span class="suite-name border-failed">SuiteMeta</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SuiteMeta" class="navigator-link ">
+                    <span>D:\hemant\EclipseWorkspace_2021_09\actitimeApplication\TestSuites\MetaGroup.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SuiteMeta" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SuiteMeta" class="navigator-link ">
+                    <span>11 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SuiteMeta" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SuiteMeta" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SuiteMeta" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SuiteMeta" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 2 failed,  2 skipped,  16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SuiteMeta" class="hide-methods failed suite-SuiteMeta"> (hide)</a> <!-- hide-methods failed suite-SuiteMeta -->
+                      <a href="#" panel-name="suite-SuiteMeta" class="show-methods failed suite-SuiteMeta"> (show)</a> <!-- show-methods failed suite-SuiteMeta -->
+                    </span>
+                    <div class="method-list-content failed suite-SuiteMeta">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupB" class="method navigator-link" hash-for-method="b4">b4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupD" class="method navigator-link" hash-for-method="d4">d4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SuiteMeta -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-SuiteMeta" class="hide-methods skipped suite-SuiteMeta"> (hide)</a> <!-- hide-methods skipped suite-SuiteMeta -->
+                      <a href="#" panel-name="suite-SuiteMeta" class="show-methods skipped suite-SuiteMeta"> (show)</a> <!-- show-methods skipped suite-SuiteMeta -->
+                    </span>
+                    <div class="method-list-content skipped suite-SuiteMeta">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupB" class="method navigator-link" hash-for-method="b5">b5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupD" class="method navigator-link" hash-for-method="d5">d5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-SuiteMeta -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteMeta" class="hide-methods passed suite-SuiteMeta"> (hide)</a> <!-- hide-methods passed suite-SuiteMeta -->
+                      <a href="#" panel-name="suite-SuiteMeta" class="show-methods passed suite-SuiteMeta"> (show)</a> <!-- show-methods passed suite-SuiteMeta -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteMeta">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupB" class="method navigator-link" hash-for-method="b1">b1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupB" class="method navigator-link" hash-for-method="b2">b2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupB" class="method navigator-link" hash-for-method="b2">b2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupB" class="method navigator-link" hash-for-method="b2">b2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupB" class="method navigator-link" hash-for-method="b2">b2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupB" class="method navigator-link" hash-for-method="b2">b2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupB" class="method navigator-link" hash-for-method="b3">b3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupB" class="method navigator-link" hash-for-method="b7">b7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupD" class="method navigator-link" hash-for-method="d1">d1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupD" class="method navigator-link" hash-for-method="d2">d2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupD" class="method navigator-link" hash-for-method="d2">d2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupD" class="method navigator-link" hash-for-method="d2">d2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupD" class="method navigator-link" hash-for-method="d2">d2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupD" class="method navigator-link" hash-for-method="d2">d2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupD" class="method navigator-link" hash-for-method="d3">d3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SuiteMeta" title="grouping.GroupD" class="method navigator-link" hash-for-method="d7">d7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteMeta -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SuiteMeta" class="panel SuiteMeta">
+          <div class="suite-SuiteMeta-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">grouping.GroupD</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="d4">
+                  </a> <!-- d4 -->
+                  <span class="method-name">d4</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at grouping.GroupD.d4(GroupD.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteMeta-class-failed -->
+          <div class="suite-SuiteMeta-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">grouping.GroupB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="b4">
+                  </a> <!-- b4 -->
+                  <span class="method-name">b4</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at grouping.GroupB.b4(GroupB.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteMeta-class-failed -->
+          <div class="suite-SuiteMeta-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">grouping.GroupD</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="d5">
+                  </a> <!-- d5 -->
+                  <span class="method-name">d5</span>
+                  <div class="stack-trace">java.lang.Throwable: Method GroupD.d5()[pri:5, instance:grouping.GroupD@38c6f217] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteMeta-class-skipped -->
+          <div class="suite-SuiteMeta-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">grouping.GroupB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="b5">
+                  </a> <!-- b5 -->
+                  <span class="method-name">b5</span>
+                  <div class="stack-trace">java.lang.Throwable: Method GroupB.b5()[pri:5, instance:grouping.GroupB@399f45b1] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteMeta-class-skipped -->
+          <div class="suite-SuiteMeta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">grouping.GroupD</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="d1">
+                  </a> <!-- d1 -->
+                  <span class="method-name">d1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="d2">
+                  </a> <!-- d2 -->
+                  <span class="method-name">d2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="d2">
+                  </a> <!-- d2 -->
+                  <span class="method-name">d2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="d2">
+                  </a> <!-- d2 -->
+                  <span class="method-name">d2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="d2">
+                  </a> <!-- d2 -->
+                  <span class="method-name">d2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="d2">
+                  </a> <!-- d2 -->
+                  <span class="method-name">d2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="d3">
+                  </a> <!-- d3 -->
+                  <span class="method-name">d3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="d7">
+                  </a> <!-- d7 -->
+                  <span class="method-name">d7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteMeta-class-passed -->
+          <div class="suite-SuiteMeta-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">grouping.GroupB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="b1">
+                  </a> <!-- b1 -->
+                  <span class="method-name">b1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="b2">
+                  </a> <!-- b2 -->
+                  <span class="method-name">b2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="b2">
+                  </a> <!-- b2 -->
+                  <span class="method-name">b2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="b2">
+                  </a> <!-- b2 -->
+                  <span class="method-name">b2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="b2">
+                  </a> <!-- b2 -->
+                  <span class="method-name">b2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="b2">
+                  </a> <!-- b2 -->
+                  <span class="method-name">b2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="b3">
+                  </a> <!-- b3 -->
+                  <span class="method-name">b3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="b7">
+                  </a> <!-- b7 -->
+                  <span class="method-name">b7</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteMeta-class-passed -->
+        </div> <!-- panel SuiteMeta -->
+        <div panel-name="test-xml-SuiteMeta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\hemant\EclipseWorkspace_2021_09\actitimeApplication\TestSuites\MetaGroup.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SuiteMeta&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestGroupMeta&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;Metaverse&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;grouping.PayTM&quot;/&gt;
+      &lt;class name=&quot;grouping.GroupA&quot;/&gt;
+      &lt;class name=&quot;grouping.GroupC&quot;/&gt;
+      &lt;class name=&quot;grouping.GroupB&quot;/&gt;
+      &lt;class name=&quot;grouping.GroupD&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestGroupMeta --&gt;
+&lt;/suite&gt; &lt;!-- SuiteMeta --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteMeta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteMeta</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestGroupMeta (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteMeta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteMeta</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">b2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">b3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">b7</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">IE.Functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">d2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Metaverse</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">b1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">b2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">b3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">b4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">b5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">b7</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">d1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">d2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">d3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">d4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">d5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">d7</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">b3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">b4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">b1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">b5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">chrome.Functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">d7</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">chrome.Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">d3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">chrome.Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">d1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">firefox..Sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">d5</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">firefox.Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">d4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">opera.Functional</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">d3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteMeta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteMeta</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteMeta');
+function tableData_SuiteMeta() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'b7')
+data.setCell(0, 2, 'grouping.GroupB')
+data.setCell(0, 3, 26);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'b3')
+data.setCell(1, 2, 'grouping.GroupB')
+data.setCell(1, 3, 14);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'b4')
+data.setCell(2, 2, 'grouping.GroupB')
+data.setCell(2, 3, 11);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'd7')
+data.setCell(3, 2, 'grouping.GroupD')
+data.setCell(3, 3, 7);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'd2')
+data.setCell(4, 2, 'grouping.GroupD')
+data.setCell(4, 3, 6);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'b2')
+data.setCell(5, 2, 'grouping.GroupB')
+data.setCell(5, 3, 6);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'd2')
+data.setCell(6, 2, 'grouping.GroupD')
+data.setCell(6, 3, 5);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'b2')
+data.setCell(7, 2, 'grouping.GroupB')
+data.setCell(7, 3, 4);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'b2')
+data.setCell(8, 2, 'grouping.GroupB')
+data.setCell(8, 3, 4);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'b1')
+data.setCell(9, 2, 'grouping.GroupB')
+data.setCell(9, 3, 4);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'd2')
+data.setCell(10, 2, 'grouping.GroupD')
+data.setCell(10, 3, 4);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'b2')
+data.setCell(11, 2, 'grouping.GroupB')
+data.setCell(11, 3, 4);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'd1')
+data.setCell(12, 2, 'grouping.GroupD')
+data.setCell(12, 3, 4);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'd2')
+data.setCell(13, 2, 'grouping.GroupD')
+data.setCell(13, 3, 3);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'b2')
+data.setCell(14, 2, 'grouping.GroupB')
+data.setCell(14, 3, 3);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'd2')
+data.setCell(15, 2, 'grouping.GroupD')
+data.setCell(15, 3, 3);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'd3')
+data.setCell(16, 2, 'grouping.GroupD')
+data.setCell(16, 3, 3);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'd4')
+data.setCell(17, 2, 'grouping.GroupD')
+data.setCell(17, 3, 3);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'b5')
+data.setCell(18, 2, 'grouping.GroupB')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'd5')
+data.setCell(19, 2, 'grouping.GroupD')
+data.setCell(19, 3, 0);
+window.suiteTableData['SuiteMeta']= { tableData: data, tableDiv: 'times-div-SuiteMeta'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 114 ms</span>
+              <div id="times-div-SuiteMeta">
+              </div> <!-- times-div-SuiteMeta -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteMeta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteMeta</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteMeta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">17 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">grouping.GroupD</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">d6</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">grouping.GroupB</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">b6</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">grouping.GroupC</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">c6</span>
+                <br/>
+                <span class="ignored-method-name">c7</span>
+                <br/>
+                <span class="ignored-method-name">c2</span>
+                <br/>
+                <span class="ignored-method-name">c3</span>
+                <br/>
+                <span class="ignored-method-name">c4</span>
+                <br/>
+                <span class="ignored-method-name">c5</span>
+                <br/>
+                <span class="ignored-method-name">c1</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">grouping.PayTM</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">method</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">grouping.GroupA</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">a2</span>
+                <br/>
+                <span class="ignored-method-name">a7</span>
+                <br/>
+                <span class="ignored-method-name">a5</span>
+                <br/>
+                <span class="ignored-method-name">a3</span>
+                <br/>
+                <span class="ignored-method-name">a4</span>
+                <br/>
+                <span class="ignored-method-name">a1</span>
+                <br/>
+                <span class="ignored-method-name">a6</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteMeta" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">grouping.GroupB</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">b7</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b1</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b2</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b2</span>
+                <span class="method-start">59 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b2</span>
+                <span class="method-start">67 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b2</span>
+                <span class="method-start">75 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b2</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b3</span>
+                <span class="method-start">95 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">b4</span>
+                <span class="method-start">118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">b5</span>
+                <span class="method-start">149 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">grouping.GroupD</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">d7</span>
+                <span class="method-start">183 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">d1</span>
+                <span class="method-start">196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">d2</span>
+                <span class="method-start">206 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">d2</span>
+                <span class="method-start">214 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">d2</span>
+                <span class="method-start">225 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">d2</span>
+                <span class="method-start">239 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">d2</span>
+                <span class="method-start">248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">d3</span>
+                <span class="method-start">264 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">d4</span>
+                <span class="method-start">272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">d5</span>
+                <span class="method-start">282 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
